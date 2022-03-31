@@ -1,5 +1,10 @@
 
 # to będzie plik na którym będziemy pracowali w repo
 def hello(name):
-	return "Hello" + str(name)
+
+
+def odejmij(a, b):
+	return a-b
+
+
 print ("Helo world")
