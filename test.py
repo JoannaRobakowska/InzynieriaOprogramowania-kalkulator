@@ -1,17 +1,16 @@
-
 # to będzie plik na którym będziemy pracowali w repo
 def hello(name):
-	return "Hello" + str(name)
+        return "Hello" + str(name)
 
-def odejmij(a, b):
+def odejmij(a,b):
 	wynik = float(a) + float(b)
 	return wynik
 
 def dodaj(a,b):
-	wynik = float(a) + float(b)
-	return wynik
+        wynik = float(a) + float(b)
+        return wynik
 
-pierwsza = int(input())
-druga = int(input())
+pierwsza = input()
+druga = input()
 
 print (dodaj(pierwsza, druga))
